@@ -1,4 +1,4 @@
-// script.js
+
 document.addEventListener('DOMContentLoaded', function() {
     // Header Search Box Toggle
     const searchIcon = document.querySelector('.search-icon');
@@ -7,15 +7,15 @@ document.addEventListener('DOMContentLoaded', function() {
     
     searchIcon.addEventListener('click', function (event) {
         searchBox.classList.toggle('open');
-        mobileNavigation.classList.toggle('hidden'); // Hide/Show mobile nav
-        event.stopPropagation(); // Prevent click from propagating to document
+        mobileNavigation.classList.toggle('hidden'); 
+        event.stopPropagation(); 
     });
     
     // Close search box and show mobile nav when clicking outside
     document.addEventListener('click', function (event) {
         if (!searchBox.contains(event.target) && !searchIcon.contains(event.target)) {
             searchBox.classList.remove('open');
-            mobileNavigation.classList.remove('hidden'); // Show mobile nav again
+            mobileNavigation.classList.remove('hidden'); 
         }
     });
     
@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function() {
     purchaseTypeRadios.forEach(radio => {
         radio.addEventListener('change', updateAddToCartLink);
     });
-    updateAddToCartLink(); // Initial call to set the default link
+    updateAddToCartLink(); 
 
     // Percentage Count Up
     const countElements = document.querySelectorAll('.count');
@@ -124,10 +124,10 @@ document.addEventListener('DOMContentLoaded', function() {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 startCounterAnimation();
-                observer.unobserve(userStatsSection); // Stop observing after animation
+                observer.unobserve(userStatsSection); 
             }
         });
-    }, { threshold: 0.5 }); // Trigger when 50% of the section is visible
+    }, { threshold: 0.5 }); 
 
     observer.observe(userStatsSection);
 
@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const question = item.querySelector('.faq-question');
         
         question.addEventListener('click', () => {
-            // Close all other open FAQs before opening the clicked one
+            
             faqItems.forEach(otherItem => {
                 if (otherItem !== item) {
                     otherItem.classList.remove('open');
@@ -169,14 +169,14 @@ document.addEventListener('DOMContentLoaded', function() {
     const maxIndex = Math.ceil(totalTestimonials / testimonialsPerPage) - 1;
 
     function updateCarousel() {
-        // Smooth transition effect
+       
         testimonialsWrapper.style.transition = "transform 0.5s ease-in-out";
 
-        // Calculate translateX position
+      
         const offset = -(currentIndex * 100) + "%";
         testimonialsWrapper.style.transform = `translateX(${offset})`;
 
-        // Update Active Dot
+       
         dotss.forEach((dot, index) => {
             dot.classList.toggle("active", index === currentIndex);
         });
@@ -186,7 +186,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (currentIndex < maxIndex) {
             currentIndex++;
         } else {
-            currentIndex = 0; // Loop back to the first set
+            currentIndex = 0;
         }
         updateCarousel();
     });
@@ -195,7 +195,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (currentIndex > 0) {
             currentIndex--;
         } else {
-            currentIndex = maxIndex; // Loop back to the last set
+            currentIndex = maxIndex; 
         }
         updateCarousel();
     });

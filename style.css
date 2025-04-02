@@ -1,4 +1,4 @@
-/* style.css */
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -78,7 +78,7 @@ header {
     background: linear-gradient(90deg,  
     rgba(190, 150, 50, 1) 0%,  
     rgba(211, 175, 72, 1) 30%,  
-    rgba(255, 220, 150, 1) 50%, /* Bright highlight */  
+    rgba(255, 220, 150, 1) 50%, 
     rgba(226, 192, 101, 1) 70%,  
     rgba(180, 140, 50, 1) 100%);
 
@@ -272,7 +272,7 @@ header {
     background: linear-gradient(90deg,  
     rgba(190, 150, 50, 1) 0%,  
     rgba(211, 175, 72, 1) 30%,  
-    rgba(255, 220, 150, 1) 50%, /* Bright highlight */  
+    rgba(255, 220, 150, 1) 50%,   
     rgba(226, 192, 101, 1) 70%,  
     rgba(180, 140, 50, 1) 100%);
 
@@ -323,7 +323,7 @@ header {
     background: linear-gradient(90deg,  
     rgba(190, 150, 50, 1) 0%,  
     rgba(211, 175, 72, 1) 30%,  
-    rgba(255, 220, 150, 1) 50%, /* Bright highlight */  
+    rgba(255, 220, 150, 1) 50%, 
     rgba(226, 192, 101, 1) 70%,  
     rgba(180, 140, 50, 1) 100%);
 }
@@ -393,7 +393,7 @@ header {
     background: linear-gradient(90deg,  
     rgba(190, 150, 50, 1) 0%,  
     rgba(211, 175, 72, 1) 30%,  
-    rgba(255, 220, 150, 1) 50%, /* Bright highlight */  
+    rgba(255, 220, 150, 1) 50%, 
     rgba(226, 192, 101, 1) 70%,  
     rgba(180, 140, 50, 1) 100%);
     color: #333;
@@ -635,15 +635,15 @@ header {
 }
 
 .option-group {
-  background-color: #f7fafa; /* Light grey background */
-  border: 1px solid #e0e0e0; /* Light grey border */
+  background-color: #f7fafa;
+  border: 1px solid #e0e0e0; 
   border-radius: 8px;
   padding: 20px;
   margin-bottom: 20px;
 }
 
 .option-group h3 {
-  color: #333; /* Dark grey heading */
+  color: #333; 
   font-size: 20px;
   margin-top: 0;
   margin-bottom: 15px;
@@ -658,13 +658,13 @@ header {
 
 .kit-option {
   background-color: #fff;
-  border: 1px solid #d4edda; /* Light green border */
+  border: 1px solid #d4edda; 
   border-radius: 6px;
   padding: 15px;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  position: relative; /* For the popular tag */
+  position: relative; 
 }
 
 .kit-option .fle{
@@ -681,7 +681,7 @@ header {
     background: linear-gradient(90deg,  
     rgba(190, 150, 50, 1) 0%,  
     rgba(211, 175, 72, 1) 30%,  
-    rgba(255, 220, 150, 1) 50%, /* Bright highlight */  
+    rgba(255, 220, 150, 1) 50%, 
     rgba(226, 192, 101, 1) 70%,  
     rgba(180, 140, 50, 1) 100%);
     color: #333;
@@ -699,13 +699,13 @@ header {
 
 .kit-option label {
   display: block;
-  padding-left: 30px; /* Space for the radio button */
+  padding-left: 30px; 
   cursor: pointer;
 }
 
 .popular-tag {
-  background-color: #f8d7da; /* Light red background */
-  color: #721c24; /* Dark red text */
+  background-color: #f8d7da; 
+  color: #721c24; 
   font-size: 12px;
   font-weight: bold;
   padding: 5px 10px;
@@ -716,20 +716,20 @@ header {
 }
 
 .kit-name {
-  color: rgba(50, 45, 45, 1); /* Green kit name */
+  color: rgba(50, 45, 45, 1); 
   font-size: 16px;
   font-weight: 500;
   margin-top: 5px;
 }
 
 .price {
-  color: rgba(50, 45, 45, 1); /* Dark grey price */
+  color: rgba(50, 45, 45, 1); 
   font-size: 18px;
   font-weight: bold;
 }
 
 .old-price {
-  color: rgba(50, 45, 45, 1) ;/* Grey old  */
+  color: rgba(50, 45, 45, 1) ;
   font-size: 14px;
   text-decoration: line-through;
   margin-left: 5px;
@@ -741,7 +741,7 @@ header {
 
 .includes span {
   display: block;
-  color: #555; /* Grey "What's Included" */
+  color: #555; 
   font-size: 14px;
   margin-bottom: 8px;
   font-weight: 500;
@@ -761,7 +761,7 @@ header {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 10px;
-  width: 50%; /* Adjust as needed */
+  width: 50%; 
 }
 
 .box p {
@@ -771,22 +771,22 @@ header {
 }
 
 .box img {
-  max-width: 80px; /* Adjust image size */
+  max-width: 80px;
   height: auto;
 }
 
 .includes-images {
   display: flex;
   align-items: center;
-  gap: 5px; /* Space between bottle and spoon */
+  gap: 5px; 
 }
 
 .includes-images img:nth-child(2) {
-  max-width: 40px; /* Adjust bottle size */
+  max-width: 40px; 
 }
 
 .includes-images img:nth-child(3) {
-  max-width: 30px; /* Adjust spoon size */
+  max-width: 30px; 
 }
 
 .includes ul {
@@ -796,7 +796,7 @@ header {
 }
 
 .includes li {
-  color: #555; /* Grey list items */
+  color: #555; 
   font-size: 13px;
   margin-bottom: 5px;
   display: flex;
@@ -804,7 +804,7 @@ header {
 }
 
 .includes li i.fa-check {
-  color: #28a745; /* Green checkmark */
+  color: #28a745;
   margin-right: 8px;
 }
 
@@ -817,15 +817,15 @@ header {
 
 /* Style for the other radio options (initially hidden based on your HTML) */
 .radio-group > label:not(:first-child) .kit-option {
-  border-color: #ccc; /* Default border for other options */
+  border-color: #ccc; 
 }
 
 .radio-group > label:not(:first-child) .kit-name {
-  color: #555; /* Default color for other option names */
+  color: #555; 
 }
 
 .radio-group > label:not(:first-child) .price {
-  color: #555; /* Default color for other option prices */
+  color: #555; 
 }
 
 .radio-group label {
@@ -972,7 +972,7 @@ header {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    max-width: 550px; /* Restrict max width */
+    max-width: 550px; 
     width: auto;
 }
 
@@ -1021,7 +1021,7 @@ header {
     }
 
     .certifications div {
-        flex: 1 1 calc(33.33% - 20px); /* 3 items per row */
+        flex: 1 1 calc(33.33% - 20px);
     }
 }
 
@@ -1033,7 +1033,7 @@ header {
     }
 
     .certifications div {
-        width: 80%; /* Each item takes up more space */
+        width: 80%; 
     }
 }
 
@@ -1130,7 +1130,7 @@ header {
     background: linear-gradient(90deg,  
     rgba(190, 150, 50, 1) 0%,  
     rgba(211, 175, 72, 1) 30%,  
-    rgba(255, 220, 150, 1) 50%, /* Bright highlight */  
+    rgba(255, 220, 150, 1) 50%,
     rgba(226, 192, 101, 1) 70%,  
     rgba(180, 140, 50, 1) 100%);
     color: #333;
@@ -1198,7 +1198,7 @@ header {
     background: linear-gradient(90deg,  
     rgba(190, 150, 50, 1) 0%,  
     rgba(211, 175, 72, 1) 30%,  
-    rgba(255, 220, 150, 1) 50%, /* Bright highlight */  
+    rgba(255, 220, 150, 1) 50%,  
     rgba(226, 192, 101, 1) 70%,  
     rgba(180, 140, 50, 1) 100%);
     color: #333;
@@ -1297,7 +1297,7 @@ header {
     background: linear-gradient(90deg,  
     rgba(190, 150, 50, 1) 0%,  
     rgba(211, 175, 72, 1) 30%,  
-    rgba(255, 220, 150, 1) 50%, /* Bright highlight */  
+    rgba(255, 220, 150, 1) 50%, 
     rgba(226, 192, 101, 1) 70%,  
     rgba(180, 140, 50, 1) 100%);
     color: #333;
@@ -1441,7 +1441,7 @@ header {
     background: linear-gradient(90deg,  
     rgba(190, 150, 50, 1) 0%,  
     rgba(211, 175, 72, 1) 30%,  
-    rgba(255, 220, 150, 1) 50%, /* Bright highlight */  
+    rgba(255, 220, 150, 1) 50%, 
     rgba(226, 192, 101, 1) 70%,  
     rgba(180, 140, 50, 1) 100%);
     color: #333;
@@ -1493,7 +1493,7 @@ header {
     background: linear-gradient(90deg,  
     rgba(190, 150, 50, 1) 0%,  
     rgba(211, 175, 72, 1) 30%,  
-    rgba(255, 220, 150, 1) 50%, /* Bright highlight */  
+    rgba(255, 220, 150, 1) 50%,  
     rgba(226, 192, 101, 1) 70%,  
     rgba(180, 140, 50, 1) 100%);
     color: #333;
@@ -1565,7 +1565,7 @@ header {
 /* Customer Reviews Section Styles */
 .customer-reviews-section {
     padding: 80px 20px;
-    background-color: #F9F9F9; /* Match background color */
+    background-color: #F9F9F9; 
 }
 
 .customer-reviews-container {
@@ -1611,9 +1611,6 @@ header {
     transition: border-color 0.3s ease, background-color 0.3s ease;
 }
 
-/* .review-controls button:hover {
-    border-color: #1E2832;
-} */
 
 .review-controls button i {
     font-size: 1em;
@@ -1674,14 +1671,14 @@ header {
 /* --- Responsive for Tablets --- */
 @media (max-width: 992px) {
     .testimonial {
-        flex: 1 1 calc(50% - 20px); /* 2 testimonials per row */
+        flex: 1 1 calc(50% - 20px); 
     }
 }
 
 /* --- Responsive for Mobile (2 testimonials at a time) --- */
 @media (max-width: 576px) {
     .testimonial {
-        flex: 1 1 calc(50% - 10px); /* Only 2 testimonials per row */
+        flex: 1 1 calc(50% - 10px);
     }
     
     .testimonials {
@@ -1706,7 +1703,7 @@ header {
 
 
 .rating {
-    color: rgb(12, 108, 12); /* Match star color */
+    color: rgb(12, 108, 12); 
     font-size: 1.2em;
     margin-bottom: 15px;
 }
@@ -1729,8 +1726,8 @@ header {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    object-fit: cover; /* Or contain depending on your placeholder */
-    background-color: #ddd; /* Placeholder background color */
+    object-fit: cover; 
+    background-color: #ddd; 
 }
 
 .author-info {
@@ -1759,13 +1756,13 @@ header {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #ddd; /* Default color */
+    background-color: #ddd; 
     cursor: pointer;
-    margin-right: 5px; /* Add spacing if needed */
+    margin-right: 5px;
 }
 
 .review-pagination .dot.active {
-    background-color: #1E2832; /* Active color */
+    background-color: #1E2832; 
 }
 
 /* Responsive adjustments if needed */
@@ -1786,7 +1783,7 @@ header {
     }
 
     .testimonial {
-        width: 90%; /* Adjust for smaller screens */
+        width: 90%; 
     }
 }
 
@@ -1823,8 +1820,7 @@ header {
     background: linear-gradient(90deg,  
     rgba(190, 150, 50, 1) 0%,  
     rgba(211, 175, 72, 1) 30%,  
-    rgba(255, 220, 150, 1) 50%, /* Bright highlight */  
-    rgba(226, 192, 101, 1) 70%,  
+    rgba(255, 220, 150, 1) 50%, 
     rgba(180, 140, 50, 1) 100%);
     color: #333;
     border: none;
@@ -1943,7 +1939,7 @@ header {
     background: linear-gradient(90deg,  
     rgba(190, 150, 50, 1) 0%,  
     rgba(211, 175, 72, 1) 30%,  
-    rgba(255, 220, 150, 1) 50%, /* Bright highlight */  
+    rgba(255, 220, 150, 1) 50%,  
     rgba(226, 192, 101, 1) 70%,  
     rgba(180, 140, 50, 1) 100%);
     color: #333;
